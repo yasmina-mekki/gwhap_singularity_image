@@ -40,7 +40,7 @@ sudo singularity build conda.simg gwhap_recipe.def
 ```
 
 ## execute the singularity image that you created above
-- Create an R file with a simple instruction. For instance : 
+- Create a R script file with a simple instruction. For instance : 
 ```
 print('Hello world')
 ```
@@ -58,6 +58,7 @@ conda env create -f environment.yml
 
 ## List of package that included in the yml file
 
+- R 3.6.1 version
 - dplyr
 - magrittr
 - grDevices
