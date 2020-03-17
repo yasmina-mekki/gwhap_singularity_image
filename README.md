@@ -42,7 +42,7 @@ sudo singularity build conda.simg gwhap_recipe.def
 ## execute the singularity image that you created above
 - Create an R script file with a simple instruction. For instance : 
 ```
-print('Hello world')
+print('Hello world !')
 ```
 
 - Execute this script using your singularity image as follow :
