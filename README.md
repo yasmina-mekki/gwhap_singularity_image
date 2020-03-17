@@ -14,7 +14,7 @@ sudo make install
 
 
 ## create an image using singularity
-- Create an anconda environnment with all libraries that are needed. Here an example used for the gwhap image.
+- Create an anconda environnment with all libraries that are needed. Here an example used for the gwhap image. The last version available should be installed, currently it is the 3.6.1. 
 
 ```
 conda create -n r_gwhap_r_3.6.1 r-essentials r-base
